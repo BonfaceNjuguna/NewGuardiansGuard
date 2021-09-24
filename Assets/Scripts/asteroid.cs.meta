@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0a52951d9b3c69341ac6630a6ec140e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smallAsteroids: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
+  - explosion: {fileID: 6983217311981741241, guid: 0a7412c398a6b7d419b8a59dd2918ba6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
