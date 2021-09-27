@@ -8,7 +8,10 @@ public class WinGame : MonoBehaviour
     public GameObject winGameUI;
     public static bool isWinGame = false;
 
-
+    void Start()
+    {
+        Time.timeScale = 1;
+    }
     void Update()
     {
         if (score.instance.scores > 4)
@@ -20,24 +23,24 @@ public class WinGame : MonoBehaviour
     public void winGame()
     {
         winGameUI.SetActive(true);
-        Time.timeScale = 0f;
+        Time.timeScale = 0;
 
         isWinGame = true;
     }
 
-    public void RestartGame()
+    public void RestartWinGame()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene("Game");
+        Time.timeScale = 0;
     }
 
-    public void MainMenu()
+    public void RestartMainMenu()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
 
-    public void QuitGame()
+    public void QuitWinGame()
     {
         Debug.Log("Quit");
         Application.Quit();
