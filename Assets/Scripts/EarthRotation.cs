@@ -17,7 +17,7 @@ public class EarthRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0, 1, 0) * rotationSpeed * Time.deltaTime);   
+        transform.Rotate(new Vector3(0, -1, 0) * rotationSpeed * Time.deltaTime);   
     }
 
     //collision with asteroid
@@ -26,8 +26,8 @@ public class EarthRotation : MonoBehaviour
         if (collision.gameObject.tag == "asteroid")
         {
             Debug.Log("MotherEarth has collided with asteroid");
+            Destroy(gameObject);
             earthExplode.Play();
-            //Destroy(gameObject);
             Instantiate(explosion, transform.position, Quaternion.identity);
         }
     }

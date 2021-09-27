@@ -9,7 +9,7 @@ public class score : MonoBehaviour
     public static score instance;
 
     public Text scoreText;
-    int scores = 0;
+    public int scores = 0;
 
     // Start is called before the first frame update
     void Start()

@@ -7,15 +7,6 @@ public class playership : MonoBehaviour
 
     public GameObject Bullet;
 
-    private AudioSource shootBullet;
-    private AudioSource shipExplode;
-
-    void Start()
-    {
-        shootBullet = GetComponent<AudioSource>();
-        shipExplode = GetComponent<AudioSource>();
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -41,23 +32,10 @@ public class playership : MonoBehaviour
         //shooting
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //audio sound shooting
-            shootBullet.Play();
-
             //The Bullet instantiation happens here.
             GameObject Bullet_Handler;
             Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
             Destroy(Bullet_Handler, 8.0f);
-        }
-    }
-
-    //collision with asteroid
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "asteroid")
-        {
-            Debug.Log("PlayerShip collided with asteroid");
-            shipExplode.Play();
         }
     }
 }

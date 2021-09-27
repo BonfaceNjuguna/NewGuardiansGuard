@@ -12,9 +12,10 @@ public class GameOver : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "motherearth")
+        if (collision.gameObject.tag == "motherearth" )
         {
             gameOver();
+            Destroy(gameObject);
         }
     }
 

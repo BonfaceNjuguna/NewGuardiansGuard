@@ -14,10 +14,8 @@ public class collision : MonoBehaviour
             var ac = collision.gameObject.GetComponent<asteroid>();
             ac.DestroyAsteroid();
 
-            //Destroy(collision.gameObject);            
-        }
-        //ui
-        score.instance.AddPoints();
-        
+            //ui
+            score.instance.AddPoints();
+        }        
     }
 }

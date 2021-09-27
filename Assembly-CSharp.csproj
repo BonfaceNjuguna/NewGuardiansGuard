@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D79788FD-3CE1-A08E-F8E5-5456FEE579B0}</ProjectGuid>
+    <ProjectGuid>{DE985FE9-939E-5AB6-EB87-0FD0E2DA8A9E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,18 +58,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\playership.cs" />
     <Compile Include="Assets\Scripts\asteroid.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\EarthRotation.cs" />
-    <Compile Include="Assets\Scripts\shoot.cs" />
+    <Compile Include="Assets\Scripts\ShipAsteroidColliision.cs" />
     <Compile Include="Assets\Scripts\screenwrap.cs" />
     <Compile Include="Assets\Scripts\ScreenBorders.cs" />
     <Compile Include="Assets\Scripts\asteroidmovement.cs" />
     <Compile Include="Assets\Scripts\AsteroidRotation.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\collision.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Scripts\bullet.cs" />
     <Compile Include="Assets\Scripts\score.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\WinGame.cs" />
   </ItemGroup>
   <ItemGroup>
