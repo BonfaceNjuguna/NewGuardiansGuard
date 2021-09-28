@@ -6,12 +6,13 @@ public class EarthRotation : MonoBehaviour
 {
     public float rotationSpeed = 10.0f;
     public ParticleSystem explosion;
+    /*public GameOver gameOver;*/
 
     private AudioSource earthExplode;
 
     void Start()
     {
-        earthExplode = GetComponent<AudioSource>();
+        earthExplode = GetComponents<AudioSource>()[0];
     }
 
     // Update is called once per frame
@@ -19,6 +20,11 @@ public class EarthRotation : MonoBehaviour
     {
         transform.Rotate(new Vector3(0, -1, 0) * rotationSpeed * Time.deltaTime);   
     }
+
+    /*public void GameOverFunction()
+    {
+        gameOver.gameOver();
+    }*/
 
     //collision with asteroid
     private void OnCollisionEnter(Collision collision)
@@ -29,6 +35,7 @@ public class EarthRotation : MonoBehaviour
             Destroy(gameObject);
             earthExplode.Play();
             Instantiate(explosion, transform.position, Quaternion.identity);
+            /*Invoke("GameOverFunction", 3);*/
         }
     }
 }

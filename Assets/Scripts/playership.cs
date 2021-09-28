@@ -7,6 +7,13 @@ public class playership : MonoBehaviour
 
     public GameObject Bullet;
 
+    private AudioSource shootBullet;
+
+    void Start()
+    {
+        shootBullet = GetComponents<AudioSource>()[0];
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +43,18 @@ public class playership : MonoBehaviour
             GameObject Bullet_Handler;
             Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
             Destroy(Bullet_Handler, 8.0f);
+
+            //audio sound shooting
+            shootBullet.Play();
+        }
+    }
+
+    //collision with the asteroid
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "asteroid")
+        {
+            Destroy(gameObject);
         }
     }
 }

@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class ShipAsteroidColliision : MonoBehaviour
 {
-    //GameOver i;
+    public GameObject GameOver;
 
     private AudioSource shipExplode;
 
     void Start()
     {
-        shipExplode = GetComponent<AudioSource>();
+        shipExplode = GetComponents<AudioSource>()[1];
     }
+
 
     //collision with asteroid
     private void OnCollisionEnter(Collision collision)
@@ -19,8 +20,11 @@ public class ShipAsteroidColliision : MonoBehaviour
         if (collision.gameObject.tag == "asteroid")
         {
             Debug.Log("PlayerShip collided with asteroid");
-            //i.gameOver();
             shipExplode.Play();
+
+            Destroy(gameObject);
+            GameOver.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }

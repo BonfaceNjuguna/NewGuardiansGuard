@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 889653845}
   - component: {fileID: 5884560996903854393}
   - component: {fileID: 1840518653}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: small-new-asteroid
   m_TagString: asteroid
   m_Icon: {fileID: 0}
