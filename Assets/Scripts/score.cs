@@ -11,6 +11,9 @@ public class score : MonoBehaviour
     public Text scoreText;
     public int scores = 0;
 
+    public int points = 1;
+    public int highscore = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +23,7 @@ public class score : MonoBehaviour
 
     public void AddPoints()
     {
-        scores ++;
+        scores += points;
         scoreText.text = scores.ToString();
     }
 }

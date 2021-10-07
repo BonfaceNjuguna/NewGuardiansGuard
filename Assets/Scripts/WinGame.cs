@@ -14,7 +14,7 @@ public class WinGame : MonoBehaviour
     }
     void Update()
     {
-        if (score.instance.scores > 4)
+        if (score.instance.scores == score.instance.highscore)
         {
             winGame();
         }
@@ -28,18 +28,29 @@ public class WinGame : MonoBehaviour
         isWinGame = true;
     }
 
-    public void RestartWinGame()
+    //proceed to level 2
+    public void NextLevel()
     {
-        SceneManager.LoadScene("Game");
-        Time.timeScale = 0;
-    }
-
-    public void RestartMainMenu()
-    {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Time.timeScale = 1;
     }
 
+    //restart game after winning
+    public void RestartWinGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 0;
+    }
+
+    //main menu
+    public void RestartMainMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1;
+    }
+
+
+    //quit game
     public void QuitWinGame()
     {
         Debug.Log("Quit");

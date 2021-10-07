@@ -51,10 +51,10 @@ public class PauseMenu : MonoBehaviour
         GameIsPause = true;
     }
 
-    public void NewGame()
+    public void RestartLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void QuitGame()

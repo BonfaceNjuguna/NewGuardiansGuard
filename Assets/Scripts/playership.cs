@@ -11,7 +11,7 @@ public class playership : MonoBehaviour
 
     void Start()
     {
-        shootBullet = GetComponents<AudioSource>()[0];
+        shootBullet = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

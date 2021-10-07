@@ -10,7 +10,7 @@ public class ShipAsteroidColliision : MonoBehaviour
 
     void Start()
     {
-        shipExplode = GetComponents<AudioSource>()[1];
+        shipExplode = GetComponent<AudioSource>();
     }
 
 

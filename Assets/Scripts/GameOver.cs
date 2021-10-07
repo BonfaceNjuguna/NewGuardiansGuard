@@ -30,7 +30,7 @@ public class GameOver : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         isGameOver = false;
     }
@@ -38,7 +38,7 @@ public class GameOver : MonoBehaviour
     public void MainMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
         isGameOver = false;
     }
