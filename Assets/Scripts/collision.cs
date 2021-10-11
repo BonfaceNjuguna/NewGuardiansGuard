@@ -11,6 +11,9 @@ public class collision : MonoBehaviour
             Debug.Log("collision");
             Destroy(gameObject);
 
+            /*var ae = collision.gameObject.GetComponent<asteroid>();
+            ae.asteroidExplode.Play();*/
+
             var ac = collision.gameObject.GetComponent<asteroid>();
             ac.DestroyAsteroid();
 

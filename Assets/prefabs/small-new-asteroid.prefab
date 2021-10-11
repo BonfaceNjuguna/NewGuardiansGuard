@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 889653845}
   - component: {fileID: 5884560996903854393}
   - component: {fileID: 1840518653}
+  - component: {fileID: 9052726668236002328}
   m_Layer: 10
   m_Name: small-new-asteroid
   m_TagString: asteroid
@@ -279,3 +280,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9052726668236002328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093564585309552733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ae69817a8f44947a7672a59cb31f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\ShipAsteroidColliision.cs" />
     <Compile Include="Assets\Scripts\screenwrap.cs" />
     <Compile Include="Assets\Scripts\ScreenBorders.cs" />
+    <Compile Include="Assets\Scripts\TitleMusic.cs" />
     <Compile Include="Assets\Scripts\asteroidmovement.cs" />
     <Compile Include="Assets\Scripts\AsteroidRotation.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Scripts\bullet.cs" />
     <Compile Include="Assets\Scripts\score.cs" />
     <Compile Include="Assets\Scripts\WinGame.cs" />
+    <Compile Include="Assets\Scripts\BulletAsteroidCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

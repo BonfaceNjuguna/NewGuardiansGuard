@@ -7,8 +7,6 @@ public class asteroid : MonoBehaviour
     public GameObject smallAsteroids;
     public ParticleSystem explosion;
 
-    private AudioSource asteroidExplode;
-
 
     public void DestroyAsteroid()
     {
@@ -23,17 +21,5 @@ public class asteroid : MonoBehaviour
         }
         Destroy(gameObject);
         Instantiate(explosion, transform.position, Quaternion.identity);
-    }
-
-    void Start()
-    {
-        asteroidExplode = GetComponent<AudioSource>();
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "bullet" || collision.gameObject.tag == "motherearth" || collision.gameObject.tag =="spaceship")
-        {
-            asteroidExplode.Play();
-        }
     }
 }

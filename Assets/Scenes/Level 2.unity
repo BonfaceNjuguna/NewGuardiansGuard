@@ -1286,8 +1286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15.625015, y: 0}
-  m_SizeDelta: {x: 44.6991, y: 0}
+  m_AnchoredPosition: {x: -0, y: 0}
+  m_SizeDelta: {x: 2.9297, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387550242
 MonoBehaviour:
@@ -2632,7 +2632,7 @@ MonoBehaviour:
   scoreText: {fileID: 1977171181}
   scores: 0
   points: 1
-  highscore: 5
+  highscore: 8
 --- !u!114 &1268008959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2829,8 +2829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.8, y: -50.1}
-  m_SizeDelta: {x: 151.5771, y: 51.8334}
+  m_AnchoredPosition: {x: -0, y: -50.1}
+  m_SizeDelta: {x: 189.6676, y: 51.8334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1343156908
 MonoBehaviour:
@@ -2962,8 +2962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.3, y: 55}
-  m_SizeDelta: {x: 148.1835, y: 61.75}
+  m_AnchoredPosition: {x: -2, y: 55}
+  m_SizeDelta: {x: 223.5812, y: 61.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366391449
 MonoBehaviour:
@@ -3704,7 +3704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000085831, y: -92.9}
+  m_AnchoredPosition: {x: 3, y: -96}
   m_SizeDelta: {x: 78.7678, y: 37.9502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1714975025
@@ -4229,8 +4229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.9, y: 0.7}
-  m_SizeDelta: {x: 148.1835, y: 61.75}
+  m_AnchoredPosition: {x: -0, y: 0.7}
+  m_SizeDelta: {x: 325.7828, y: 61.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107458984
 MonoBehaviour:
@@ -4360,8 +4360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
-  m_SizeDelta: {x: 13.4491, y: 0}
+  m_AnchoredPosition: {x: -0.36224365, y: 0}
+  m_SizeDelta: {x: 0.72461, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2109599712
 MonoBehaviour:
@@ -4396,9 +4396,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'R E S T A R T   G A M E
-
-'
+  m_Text: R E S T A R T   L  E  V  E  L
 --- !u!222 &2109599713
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -45,7 +45,7 @@ public class WinGame : MonoBehaviour
     //main menu
     public void RestartMainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("Menu");
         Time.timeScale = 1;
     }
 
