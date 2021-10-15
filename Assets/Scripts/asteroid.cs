@@ -14,7 +14,7 @@ public class asteroid : MonoBehaviour
         {
             for (int i = 0; i < 2; ++i)
             {
-                var asteroid = Instantiate(smallAsteroids, transform.position - new Vector3(1.0f, 1.0f, 60.0f), Quaternion.identity);
+                var asteroid = Instantiate(smallAsteroids, transform.position - new Vector3(1.0f, 1.0f, 1.0f), Quaternion.identity);
                 Vector3 newVelocity = new Vector3(Random.Range(-0.1f, 1.0f), 0, Random.Range(-1.0f, 1.0f));
                 asteroid.GetComponent<Rigidbody>().velocity = newVelocity;
             }

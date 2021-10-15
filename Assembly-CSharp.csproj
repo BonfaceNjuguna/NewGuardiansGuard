@@ -57,14 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\playership.cs" />
-    <Compile Include="Assets\Scripts\BulletAsteroidCollision.cs" />
     <Compile Include="Assets\Scripts\asteroid.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\EarthRotation.cs" />
     <Compile Include="Assets\Scripts\ShipAsteroidColliision.cs" />
     <Compile Include="Assets\Scripts\screenwrap.cs" />
     <Compile Include="Assets\Scripts\ScreenBorders.cs" />
-    <Compile Include="Assets\Scripts\TitleMusic.cs" />
     <Compile Include="Assets\Scripts\asteroidmovement.cs" />
     <Compile Include="Assets\Scripts\AsteroidRotation.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />

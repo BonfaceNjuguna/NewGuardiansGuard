@@ -1145,6 +1145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bigAsteroid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4543468973933036795, guid: 2d2b9cf2cda42cf4d9f397a4db43916c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d2b9cf2cda42cf4d9f397a4db43916c, type: 3}
 --- !u!1 &808018226

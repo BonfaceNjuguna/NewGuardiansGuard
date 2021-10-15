@@ -20,11 +20,11 @@ public class ShipAsteroidColliision : MonoBehaviour
         if (collision.gameObject.tag == "asteroid")
         {
             Debug.Log("PlayerShip collided with asteroid");
-            shipExplode.Play();
 
             Destroy(gameObject);
             GameOver.SetActive(true);
             Time.timeScale = 0;
         }
+        shipExplode.Play(2);
     }
 }

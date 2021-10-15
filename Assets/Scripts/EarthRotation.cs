@@ -32,10 +32,12 @@ public class EarthRotation : MonoBehaviour
         if (collision.gameObject.tag == "asteroid")
         {
             Debug.Log("MotherEarth has collided with asteroid");
-            Destroy(gameObject);
+            
             earthExplode.Play();
+
             Instantiate(explosion, transform.position, Quaternion.identity);
             /*Invoke("GameOverFunction", 3);*/
         }
+        Destroy(gameObject);
     }
 }
