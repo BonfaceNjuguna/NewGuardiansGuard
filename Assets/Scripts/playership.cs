@@ -9,6 +9,8 @@ public class playership : MonoBehaviour
 
     private AudioSource shootBullet;
 
+    public ParticleSystem explosion;
+
     void Start()
     {
         shootBullet = GetComponent<AudioSource>();
@@ -55,6 +57,7 @@ public class playership : MonoBehaviour
         if (collision.gameObject.tag == "asteroid")
         {
             Destroy(gameObject);
+            Instantiate(explosion, transform.position, Quaternion.identity);
         }
     }
 }
