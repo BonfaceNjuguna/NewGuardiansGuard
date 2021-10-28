@@ -19,7 +19,7 @@ public class playership : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("s"))
+        if (Input.GetKey("s") )
         {
             transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
         }

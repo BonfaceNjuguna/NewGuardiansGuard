@@ -25,6 +25,6 @@ public class ShipAsteroidColliision : MonoBehaviour
             GameOver.SetActive(true);
             Time.timeScale = 0;
         }
-        shipExplode.Play(2);
+        shipExplode.Play();
     }
 }
