@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classbullet" kind="class" language="C#" prot="public">
+    <compoundname>bullet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbullet_1a7b317bcb52783333f82da0a886dfb473" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float bullet.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/bullet.cs" line="8" column="18" bodyfile="Assets/Scripts/bullet.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbullet_1a084550ce7e9f68a69d27d7390b4e6af0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void bullet.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/bullet.cs" line="11" column="10" bodyfile="Assets/Scripts/bullet.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/bullet.cs" line="5" column="7" bodyfile="Assets/Scripts/bullet.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classbullet_1a7b317bcb52783333f82da0a886dfb473" prot="public" virt="non-virtual"><scope>bullet</scope><name>speed</name></member>
+      <member refid="classbullet_1a084550ce7e9f68a69d27d7390b4e6af0" prot="private" virt="non-virtual"><scope>bullet</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

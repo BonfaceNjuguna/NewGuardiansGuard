@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_screen_borders" kind="class" language="C#" prot="public">
+    <compoundname>ScreenBorders</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_screen_borders_1a549f5dd5a79141c7fd3b944c223e2d9e" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float ScreenBorders.padding</definition>
+        <argsstring></argsstring>
+        <name>padding</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScreenBorders.cs" line="8" column="25" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_screen_borders_1a72e9950147ec0e95db21482e26ad6eba" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Bounds</type>
+        <definition>Bounds ScreenBorders.ScreenLimits</definition>
+        <argsstring></argsstring>
+        <name>ScreenLimits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScreenBorders.cs" line="9" column="26" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_screen_borders_1ae57157fc7d0e4cf6a0b04fbd71c99566" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ScreenBorders.pad</definition>
+        <argsstring></argsstring>
+        <name>pad</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScreenBorders.cs" line="23" column="18" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_screen_borders_1ab6fca812ac3372734183eb35c67205ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScreenBorders.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScreenBorders.cs" line="25" column="18" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_borders_1acc2cf4af80b8294a5e05f6e829137032" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScreenBorders.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScreenBorders.cs" line="30" column="18" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScreenBorders</label>
+        <link refid="class_screen_borders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScreenBorders</label>
+        <link refid="class_screen_borders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScreenBorders.cs" line="5" column="7" bodyfile="Assets/Scripts/ScreenBorders.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_screen_borders_1acc2cf4af80b8294a5e05f6e829137032" prot="private" virt="non-virtual"><scope>ScreenBorders</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_screen_borders_1ab6fca812ac3372734183eb35c67205ed" prot="private" virt="non-virtual"><scope>ScreenBorders</scope><name>OnValidate</name></member>
+      <member refid="class_screen_borders_1ae57157fc7d0e4cf6a0b04fbd71c99566" prot="public" virt="non-virtual"><scope>ScreenBorders</scope><name>pad</name></member>
+      <member refid="class_screen_borders_1a549f5dd5a79141c7fd3b944c223e2d9e" prot="public" virt="non-virtual"><scope>ScreenBorders</scope><name>padding</name></member>
+      <member refid="class_screen_borders_1a72e9950147ec0e95db21482e26ad6eba" prot="public" virt="non-virtual"><scope>ScreenBorders</scope><name>ScreenLimits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

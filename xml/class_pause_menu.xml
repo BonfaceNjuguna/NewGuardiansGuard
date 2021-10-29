@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_pause_menu" kind="class" language="C#" prot="public">
+    <compoundname>PauseMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pause_menu_1aa4b71b523b07a7e678c0446dbf8f9c70" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseMenu.GameIsPause</definition>
+        <argsstring></argsstring>
+        <name>GameIsPause</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="8" column="24" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_menu_1a49305f37ccebc2342ea009f5cb259fee" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseMenu.pauseMenuUI</definition>
+        <argsstring></argsstring>
+        <name>pauseMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="9" column="23" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_menu_1a5325fe2fbc7a7d39408b6dab0a129c88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="12" column="10" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1ad66a0552c131257182ce524f1c71ce4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="17" column="10" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="17" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1a712dac1268693262de144337e2835ea7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Pause</definition>
+        <argsstring>()</argsstring>
+        <name>Pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="46" column="10" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pause_menu_1a4416b25e65dfadf57cd8657eaf94f7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.Resume</definition>
+        <argsstring>()</argsstring>
+        <name>Resume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="38" column="17" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1a0bdcb9381f657a4dbe7c51d20ef888ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.RestartLevel</definition>
+        <argsstring>()</argsstring>
+        <name>RestartLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="54" column="17" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_menu_1a833077a2752465d59d0e7e5ad756b7ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseMenu.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/PauseMenu.cs" line="60" column="17" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="60" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PauseMenu</label>
+        <link refid="class_pause_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/PauseMenu.cs" line="6" column="7" bodyfile="Assets/Scripts/PauseMenu.cs" bodystart="7" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_pause_menu_1aa4b71b523b07a7e678c0446dbf8f9c70" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>GameIsPause</name></member>
+      <member refid="class_pause_menu_1a712dac1268693262de144337e2835ea7" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>Pause</name></member>
+      <member refid="class_pause_menu_1a49305f37ccebc2342ea009f5cb259fee" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>pauseMenuUI</name></member>
+      <member refid="class_pause_menu_1a833077a2752465d59d0e7e5ad756b7ab" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>QuitGame</name></member>
+      <member refid="class_pause_menu_1a0bdcb9381f657a4dbe7c51d20ef888ec" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>RestartLevel</name></member>
+      <member refid="class_pause_menu_1a4416b25e65dfadf57cd8657eaf94f7df" prot="public" virt="non-virtual"><scope>PauseMenu</scope><name>Resume</name></member>
+      <member refid="class_pause_menu_1a5325fe2fbc7a7d39408b6dab0a129c88" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>Start</name></member>
+      <member refid="class_pause_menu_1ad66a0552c131257182ce524f1c71ce4c" prot="private" virt="non-virtual"><scope>PauseMenu</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

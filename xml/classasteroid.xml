@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classasteroid" kind="class" language="C#" prot="public">
+    <compoundname>asteroid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classasteroid_1ab68d59505459d4c87502a982cd53b12b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject asteroid.smallAsteroids</definition>
+        <argsstring></argsstring>
+        <name>smallAsteroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroid.cs" line="7" column="23" bodyfile="Assets/Scripts/asteroid.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classasteroid_1ad62448bfa387d2aa84cc72da8bc424b5" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem asteroid.explosion</definition>
+        <argsstring></argsstring>
+        <name>explosion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroid.cs" line="8" column="27" bodyfile="Assets/Scripts/asteroid.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classasteroid_1a327b85da9f0c9820a4b9cedecee4c7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void asteroid.DestroyAsteroid</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyAsteroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroid.cs" line="11" column="17" bodyfile="Assets/Scripts/asteroid.cs" bodystart="11" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>asteroid</label>
+        <link refid="classasteroid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>asteroid</label>
+        <link refid="classasteroid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/asteroid.cs" line="5" column="7" bodyfile="Assets/Scripts/asteroid.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classasteroid_1a327b85da9f0c9820a4b9cedecee4c7f2" prot="public" virt="non-virtual"><scope>asteroid</scope><name>DestroyAsteroid</name></member>
+      <member refid="classasteroid_1ad62448bfa387d2aa84cc72da8bc424b5" prot="public" virt="non-virtual"><scope>asteroid</scope><name>explosion</name></member>
+      <member refid="classasteroid_1ab68d59505459d4c87502a982cd53b12b" prot="public" virt="non-virtual"><scope>asteroid</scope><name>smallAsteroids</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

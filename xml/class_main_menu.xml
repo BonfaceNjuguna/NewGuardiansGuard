@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_main_menu" kind="class" language="C#" prot="public">
+    <compoundname>MainMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_menu_1a11d7e3cd6b90cf59659e03e830e02db5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenu.PlayGame</definition>
+        <argsstring>()</argsstring>
+        <name>PlayGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MainMenu.cs" line="8" column="17" bodyfile="Assets/Scripts/MainMenu.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_1a485db7cf60c0b93ecc87b9273bcce78b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenu.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MainMenu.cs" line="13" column="17" bodyfile="Assets/Scripts/MainMenu.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MainMenu</label>
+        <link refid="class_main_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MainMenu</label>
+        <link refid="class_main_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MainMenu.cs" line="6" column="7" bodyfile="Assets/Scripts/MainMenu.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_main_menu_1a11d7e3cd6b90cf59659e03e830e02db5" prot="public" virt="non-virtual"><scope>MainMenu</scope><name>PlayGame</name></member>
+      <member refid="class_main_menu_1a485db7cf60c0b93ecc87b9273bcce78b" prot="public" virt="non-virtual"><scope>MainMenu</scope><name>QuitGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

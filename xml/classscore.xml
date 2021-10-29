@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classscore" kind="class" language="C#" prot="public">
+    <compoundname>score</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classscore_1a06222ee18eab9df60a295582b34f356a" prot="public" static="yes" mutable="no">
+        <type><ref refid="classscore" kindref="compound">score</ref></type>
+        <definition>score score.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="9" column="25" bodyfile="Assets/Scripts/score.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classscore_1a47bc23e3a9825ea6fbac949bfcbb9f39" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text score.scoreText</definition>
+        <argsstring></argsstring>
+        <name>scoreText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="11" column="17" bodyfile="Assets/Scripts/score.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscore_1a8506a33e6cc8460b3ebbf33bf041a3e9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int score.scores</definition>
+        <argsstring></argsstring>
+        <name>scores</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="12" column="16" bodyfile="Assets/Scripts/score.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscore_1a6f5e302c208fcaf3ae8496a70e24253b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int score.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="14" column="16" bodyfile="Assets/Scripts/score.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classscore_1a338bc64bc24dfe65adca2d0122299e78" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int score.highscore</definition>
+        <argsstring></argsstring>
+        <name>highscore</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="15" column="16" bodyfile="Assets/Scripts/score.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classscore_1a786a3b6a4e7c43e0654188a9c4494f52" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void score.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="18" column="10" bodyfile="Assets/Scripts/score.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classscore_1a44142d506a88042762312bd2ec8a10de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void score.AddPoints</definition>
+        <argsstring>()</argsstring>
+        <name>AddPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/score.cs" line="24" column="17" bodyfile="Assets/Scripts/score.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>score</label>
+        <link refid="classscore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>score</label>
+        <link refid="classscore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/score.cs" line="7" column="7" bodyfile="Assets/Scripts/score.cs" bodystart="8" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classscore_1a44142d506a88042762312bd2ec8a10de" prot="public" virt="non-virtual"><scope>score</scope><name>AddPoints</name></member>
+      <member refid="classscore_1a338bc64bc24dfe65adca2d0122299e78" prot="public" virt="non-virtual"><scope>score</scope><name>highscore</name></member>
+      <member refid="classscore_1a06222ee18eab9df60a295582b34f356a" prot="public" virt="non-virtual"><scope>score</scope><name>instance</name></member>
+      <member refid="classscore_1a6f5e302c208fcaf3ae8496a70e24253b" prot="public" virt="non-virtual"><scope>score</scope><name>points</name></member>
+      <member refid="classscore_1a8506a33e6cc8460b3ebbf33bf041a3e9" prot="public" virt="non-virtual"><scope>score</scope><name>scores</name></member>
+      <member refid="classscore_1a47bc23e3a9825ea6fbac949bfcbb9f39" prot="public" virt="non-virtual"><scope>score</scope><name>scoreText</name></member>
+      <member refid="classscore_1a786a3b6a4e7c43e0654188a9c4494f52" prot="private" virt="non-virtual"><scope>score</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

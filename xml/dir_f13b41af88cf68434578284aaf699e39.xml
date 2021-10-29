@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_f13b41af88cf68434578284aaf699e39" kind="dir">
+    <compoundname>Assets/Scripts</compoundname>
+    <innerfile refid="asteroid_8cs">asteroid.cs</innerfile>
+    <innerfile refid="asteroidmovement_8cs">asteroidmovement.cs</innerfile>
+    <innerfile refid="_asteroid_rotation_8cs">AsteroidRotation.cs</innerfile>
+    <innerfile refid="bullet_8cs">bullet.cs</innerfile>
+    <innerfile refid="collision_8cs">collision.cs</innerfile>
+    <innerfile refid="_earth_rotation_8cs">EarthRotation.cs</innerfile>
+    <innerfile refid="_game_over_8cs">GameOver.cs</innerfile>
+    <innerfile refid="_main_menu_8cs">MainMenu.cs</innerfile>
+    <innerfile refid="_pause_menu_8cs">PauseMenu.cs</innerfile>
+    <innerfile refid="playership_8cs">playership.cs</innerfile>
+    <innerfile refid="score_8cs">score.cs</innerfile>
+    <innerfile refid="_screen_borders_8cs">ScreenBorders.cs</innerfile>
+    <innerfile refid="screenwrap_8cs">screenwrap.cs</innerfile>
+    <innerfile refid="_ship_asteroid_colliision_8cs">ShipAsteroidColliision.cs</innerfile>
+    <innerfile refid="_win_game_8cs">WinGame.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

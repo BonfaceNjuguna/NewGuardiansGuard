@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_asteroid_rotation" kind="class" language="C#" prot="public">
+    <compoundname>AsteroidRotation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_asteroid_rotation_1a395bd8b7eaccda1d682e87af52ef9896" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AsteroidRotation.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/AsteroidRotation.cs" line="7" column="18" bodyfile="Assets/Scripts/AsteroidRotation.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_asteroid_rotation_1a7328c627c01614a5310254efcaa26f45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidRotation.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/AsteroidRotation.cs" line="10" column="10" bodyfile="Assets/Scripts/AsteroidRotation.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AsteroidRotation</label>
+        <link refid="class_asteroid_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AsteroidRotation</label>
+        <link refid="class_asteroid_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/AsteroidRotation.cs" line="5" column="7" bodyfile="Assets/Scripts/AsteroidRotation.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_asteroid_rotation_1a395bd8b7eaccda1d682e87af52ef9896" prot="public" virt="non-virtual"><scope>AsteroidRotation</scope><name>rotationSpeed</name></member>
+      <member refid="class_asteroid_rotation_1a7328c627c01614a5310254efcaa26f45" prot="private" virt="non-virtual"><scope>AsteroidRotation</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

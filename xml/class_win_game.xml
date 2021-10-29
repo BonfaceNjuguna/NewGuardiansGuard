@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_win_game" kind="class" language="C#" prot="public">
+    <compoundname>WinGame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_win_game_1a7ea54358c5ea2ec47d495322a925a44b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WinGame.winGameUI</definition>
+        <argsstring></argsstring>
+        <name>winGameUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="8" column="23" bodyfile="Assets/Scripts/WinGame.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_win_game_1a0ad3f988323aee16ce016d824e419a37" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool WinGame.isWinGame</definition>
+        <argsstring></argsstring>
+        <name>isWinGame</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="9" column="24" bodyfile="Assets/Scripts/WinGame.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_win_game_1ab0221370e182f87648e0ed7bc1c6fe3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="11" column="10" bodyfile="Assets/Scripts/WinGame.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_game_1a3ebfa5b928881fe57542f6cb1c61bfd2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="15" column="10" bodyfile="Assets/Scripts/WinGame.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_win_game_1a947b8082bb90d2c4fdcfd76482124263" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.winGame</definition>
+        <argsstring>()</argsstring>
+        <name>winGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="23" column="17" bodyfile="Assets/Scripts/WinGame.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_game_1a7b860a40b52cd13ee7ae3b49c9b3f170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.NextLevel</definition>
+        <argsstring>()</argsstring>
+        <name>NextLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="32" column="17" bodyfile="Assets/Scripts/WinGame.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_game_1af073e08200a6fd525cdc131d2b574d46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.RestartWinGame</definition>
+        <argsstring>()</argsstring>
+        <name>RestartWinGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="39" column="17" bodyfile="Assets/Scripts/WinGame.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_game_1a11c9bba6687e05a8979db5ea7c4c74f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.RestartMainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>RestartMainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="46" column="17" bodyfile="Assets/Scripts/WinGame.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_win_game_1acba08d856faf68e62f89de36567001a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WinGame.QuitWinGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitWinGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/WinGame.cs" line="54" column="17" bodyfile="Assets/Scripts/WinGame.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WinGame</label>
+        <link refid="class_win_game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>WinGame</label>
+        <link refid="class_win_game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/WinGame.cs" line="6" column="7" bodyfile="Assets/Scripts/WinGame.cs" bodystart="7" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_win_game_1a0ad3f988323aee16ce016d824e419a37" prot="public" virt="non-virtual"><scope>WinGame</scope><name>isWinGame</name></member>
+      <member refid="class_win_game_1a7b860a40b52cd13ee7ae3b49c9b3f170" prot="public" virt="non-virtual"><scope>WinGame</scope><name>NextLevel</name></member>
+      <member refid="class_win_game_1acba08d856faf68e62f89de36567001a9" prot="public" virt="non-virtual"><scope>WinGame</scope><name>QuitWinGame</name></member>
+      <member refid="class_win_game_1a11c9bba6687e05a8979db5ea7c4c74f2" prot="public" virt="non-virtual"><scope>WinGame</scope><name>RestartMainMenu</name></member>
+      <member refid="class_win_game_1af073e08200a6fd525cdc131d2b574d46" prot="public" virt="non-virtual"><scope>WinGame</scope><name>RestartWinGame</name></member>
+      <member refid="class_win_game_1ab0221370e182f87648e0ed7bc1c6fe3b" prot="private" virt="non-virtual"><scope>WinGame</scope><name>Start</name></member>
+      <member refid="class_win_game_1a3ebfa5b928881fe57542f6cb1c61bfd2" prot="private" virt="non-virtual"><scope>WinGame</scope><name>Update</name></member>
+      <member refid="class_win_game_1a947b8082bb90d2c4fdcfd76482124263" prot="public" virt="non-virtual"><scope>WinGame</scope><name>winGame</name></member>
+      <member refid="class_win_game_1a7ea54358c5ea2ec47d495322a925a44b" prot="public" virt="non-virtual"><scope>WinGame</scope><name>winGameUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

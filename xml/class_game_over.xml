@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_over" kind="class" language="C#" prot="public">
+    <compoundname>GameOver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_over_1adbaf49980d70d9f85b081d679f8c2964" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameOver.gameOverUI</definition>
+        <argsstring></argsstring>
+        <name>gameOverUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="9" column="23" bodyfile="Assets/Scripts/GameOver.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_game_over_1a7bf9c8b5a92fee5fe0b6a2eb20cf5ebc" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool GameOver.isGameOver</definition>
+        <argsstring></argsstring>
+        <name>isGameOver</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="10" column="24" bodyfile="Assets/Scripts/GameOver.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_over_1aeca680d31b0c4701541279882bb143c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOver.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="13" column="18" bodyfile="Assets/Scripts/GameOver.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_over_1a03d824dff5b997d7566f5e7bb5326609" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOver.gameOver</definition>
+        <argsstring>()</argsstring>
+        <name>gameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="22" column="17" bodyfile="Assets/Scripts/GameOver.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_over_1a4ac2547fd46ea32a479f512bc2720a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOver.RestartGame</definition>
+        <argsstring>()</argsstring>
+        <name>RestartGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="30" column="17" bodyfile="Assets/Scripts/GameOver.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_over_1aab4902830328edefbfc83063863159a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOver.MainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="38" column="17" bodyfile="Assets/Scripts/GameOver.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_over_1a252e97e89fa007889c2a9fb4a2f9b06c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameOver.QuitGame</definition>
+        <argsstring>()</argsstring>
+        <name>QuitGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/GameOver.cs" line="46" column="17" bodyfile="Assets/Scripts/GameOver.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameOver</label>
+        <link refid="class_game_over"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameOver</label>
+        <link refid="class_game_over"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/GameOver.cs" line="6" column="7" bodyfile="Assets/Scripts/GameOver.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_game_over_1a03d824dff5b997d7566f5e7bb5326609" prot="public" virt="non-virtual"><scope>GameOver</scope><name>gameOver</name></member>
+      <member refid="class_game_over_1adbaf49980d70d9f85b081d679f8c2964" prot="public" virt="non-virtual"><scope>GameOver</scope><name>gameOverUI</name></member>
+      <member refid="class_game_over_1a7bf9c8b5a92fee5fe0b6a2eb20cf5ebc" prot="public" virt="non-virtual"><scope>GameOver</scope><name>isGameOver</name></member>
+      <member refid="class_game_over_1aab4902830328edefbfc83063863159a6" prot="public" virt="non-virtual"><scope>GameOver</scope><name>MainMenu</name></member>
+      <member refid="class_game_over_1aeca680d31b0c4701541279882bb143c8" prot="private" virt="non-virtual"><scope>GameOver</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_game_over_1a252e97e89fa007889c2a9fb4a2f9b06c" prot="public" virt="non-virtual"><scope>GameOver</scope><name>QuitGame</name></member>
+      <member refid="class_game_over_1a4ac2547fd46ea32a479f512bc2720a82" prot="public" virt="non-virtual"><scope>GameOver</scope><name>RestartGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

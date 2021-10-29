@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_earth_rotation" kind="class" language="C#" prot="public">
+    <compoundname>EarthRotation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_earth_rotation_1afd2f8e3c71b37cbb8a4a3efaeb4bb76c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EarthRotation.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="7" column="18" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_earth_rotation_1a8848f38ddc2d6feb51230270125533d2" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem EarthRotation.explosion</definition>
+        <argsstring></argsstring>
+        <name>explosion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="8" column="27" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_earth_rotation_1ac825ae5dea8e7c4a12f9b74512f6877e" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource EarthRotation.earthExplode</definition>
+        <argsstring></argsstring>
+        <name>earthExplode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="11" column="25" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_earth_rotation_1a526b254eb3ea380b60d0a351f2d8fee9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EarthRotation.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="13" column="10" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_earth_rotation_1a4cc9c7ef6ab05928198c616ec25120b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EarthRotation.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="19" column="10" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_earth_rotation_1af3e6c377512351c08cc832628cc118d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EarthRotation.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/EarthRotation.cs" line="30" column="18" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EarthRotation</label>
+        <link refid="class_earth_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EarthRotation</label>
+        <link refid="class_earth_rotation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/EarthRotation.cs" line="5" column="7" bodyfile="Assets/Scripts/EarthRotation.cs" bodystart="6" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_earth_rotation_1ac825ae5dea8e7c4a12f9b74512f6877e" prot="private" virt="non-virtual"><scope>EarthRotation</scope><name>earthExplode</name></member>
+      <member refid="class_earth_rotation_1a8848f38ddc2d6feb51230270125533d2" prot="public" virt="non-virtual"><scope>EarthRotation</scope><name>explosion</name></member>
+      <member refid="class_earth_rotation_1af3e6c377512351c08cc832628cc118d5" prot="private" virt="non-virtual"><scope>EarthRotation</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_earth_rotation_1afd2f8e3c71b37cbb8a4a3efaeb4bb76c" prot="public" virt="non-virtual"><scope>EarthRotation</scope><name>rotationSpeed</name></member>
+      <member refid="class_earth_rotation_1a526b254eb3ea380b60d0a351f2d8fee9" prot="private" virt="non-virtual"><scope>EarthRotation</scope><name>Start</name></member>
+      <member refid="class_earth_rotation_1a4cc9c7ef6ab05928198c616ec25120b0" prot="private" virt="non-virtual"><scope>EarthRotation</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

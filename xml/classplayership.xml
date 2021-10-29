@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classplayership" kind="class" language="C#" prot="public">
+    <compoundname>playership</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classplayership_1ac14db9c28b442a2f7e5b37bab43fc650" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject playership.Bullet</definition>
+        <argsstring></argsstring>
+        <name>Bullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="8" column="23" bodyfile="Assets/Scripts/playership.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classplayership_1a9da787a237b15372f9f5999856ba9cb1" prot="public" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem playership.explosion</definition>
+        <argsstring></argsstring>
+        <name>explosion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="12" column="27" bodyfile="Assets/Scripts/playership.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classplayership_1a4fd966dbae906b3fa1eddf8d4423746a" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource playership.shootBullet</definition>
+        <argsstring></argsstring>
+        <name>shootBullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="10" column="25" bodyfile="Assets/Scripts/playership.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classplayership_1a930d0fdddf697b79aa70d29a3c33e999" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void playership.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="14" column="10" bodyfile="Assets/Scripts/playership.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classplayership_1ad7df7fbe0c99158b2bab58f7ac4cbd8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void playership.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="20" column="10" bodyfile="Assets/Scripts/playership.cs" bodystart="20" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classplayership_1a465b8f5ec7577c08c5859f66c48f0858" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void playership.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/playership.cs" line="55" column="18" bodyfile="Assets/Scripts/playership.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>playership</label>
+        <link refid="classplayership"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>playership</label>
+        <link refid="classplayership"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/playership.cs" line="5" column="7" bodyfile="Assets/Scripts/playership.cs" bodystart="6" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classplayership_1ac14db9c28b442a2f7e5b37bab43fc650" prot="public" virt="non-virtual"><scope>playership</scope><name>Bullet</name></member>
+      <member refid="classplayership_1a9da787a237b15372f9f5999856ba9cb1" prot="public" virt="non-virtual"><scope>playership</scope><name>explosion</name></member>
+      <member refid="classplayership_1a465b8f5ec7577c08c5859f66c48f0858" prot="private" virt="non-virtual"><scope>playership</scope><name>OnCollisionEnter</name></member>
+      <member refid="classplayership_1a4fd966dbae906b3fa1eddf8d4423746a" prot="private" virt="non-virtual"><scope>playership</scope><name>shootBullet</name></member>
+      <member refid="classplayership_1a930d0fdddf697b79aa70d29a3c33e999" prot="private" virt="non-virtual"><scope>playership</scope><name>Start</name></member>
+      <member refid="classplayership_1ad7df7fbe0c99158b2bab58f7ac4cbd8e" prot="private" virt="non-virtual"><scope>playership</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

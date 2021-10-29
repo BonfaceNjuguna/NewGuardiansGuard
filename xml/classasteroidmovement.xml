@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classasteroidmovement" kind="class" language="C#" prot="public">
+    <compoundname>asteroidmovement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classasteroidmovement_1ad9241f5e58b38d4b0d606217bbdfe14b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float asteroidmovement.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroidmovement.cs" line="8" column="18" bodyfile="Assets/Scripts/asteroidmovement.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classasteroidmovement_1a2c443d3ce3954bd758ee1fe1d2d6137a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void asteroidmovement.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroidmovement.cs" line="10" column="10" bodyfile="Assets/Scripts/asteroidmovement.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classasteroidmovement_1a5a8a5f4503712d66fddb57ab5bdf3126" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void asteroidmovement.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/asteroidmovement.cs" line="16" column="10" bodyfile="Assets/Scripts/asteroidmovement.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>asteroidmovement</label>
+        <link refid="classasteroidmovement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>asteroidmovement</label>
+        <link refid="classasteroidmovement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/asteroidmovement.cs" line="5" column="7" bodyfile="Assets/Scripts/asteroidmovement.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classasteroidmovement_1ad9241f5e58b38d4b0d606217bbdfe14b" prot="public" virt="non-virtual"><scope>asteroidmovement</scope><name>speed</name></member>
+      <member refid="classasteroidmovement_1a2c443d3ce3954bd758ee1fe1d2d6137a" prot="private" virt="non-virtual"><scope>asteroidmovement</scope><name>Start</name></member>
+      <member refid="classasteroidmovement_1a5a8a5f4503712d66fddb57ab5bdf3126" prot="private" virt="non-virtual"><scope>asteroidmovement</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

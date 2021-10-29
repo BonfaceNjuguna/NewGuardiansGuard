@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_ship_asteroid_colliision" kind="class" language="C#" prot="public">
+    <compoundname>ShipAsteroidColliision</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ship_asteroid_colliision_1a53075332c0c3ce1f8bab7068e01ee98c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ShipAsteroidColliision.GameOver</definition>
+        <argsstring></argsstring>
+        <name>GameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ShipAsteroidColliision.cs" line="7" column="23" bodyfile="Assets/Scripts/ShipAsteroidColliision.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ship_asteroid_colliision_1a0de195a71aa57f4cacbd50a462c53c4c" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ShipAsteroidColliision.shipExplode</definition>
+        <argsstring></argsstring>
+        <name>shipExplode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ShipAsteroidColliision.cs" line="9" column="25" bodyfile="Assets/Scripts/ShipAsteroidColliision.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ship_asteroid_colliision_1a445248537e0642e62d67bd61638d554e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShipAsteroidColliision.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ShipAsteroidColliision.cs" line="11" column="10" bodyfile="Assets/Scripts/ShipAsteroidColliision.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ship_asteroid_colliision_1a9ae5077297dbdd106214fd618a015675" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShipAsteroidColliision.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ShipAsteroidColliision.cs" line="18" column="18" bodyfile="Assets/Scripts/ShipAsteroidColliision.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShipAsteroidColliision</label>
+        <link refid="class_ship_asteroid_colliision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShipAsteroidColliision</label>
+        <link refid="class_ship_asteroid_colliision"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ShipAsteroidColliision.cs" line="5" column="7" bodyfile="Assets/Scripts/ShipAsteroidColliision.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_ship_asteroid_colliision_1a53075332c0c3ce1f8bab7068e01ee98c" prot="public" virt="non-virtual"><scope>ShipAsteroidColliision</scope><name>GameOver</name></member>
+      <member refid="class_ship_asteroid_colliision_1a9ae5077297dbdd106214fd618a015675" prot="private" virt="non-virtual"><scope>ShipAsteroidColliision</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_ship_asteroid_colliision_1a0de195a71aa57f4cacbd50a462c53c4c" prot="private" virt="non-virtual"><scope>ShipAsteroidColliision</scope><name>shipExplode</name></member>
+      <member refid="class_ship_asteroid_colliision_1a445248537e0642e62d67bd61638d554e" prot="private" virt="non-virtual"><scope>ShipAsteroidColliision</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

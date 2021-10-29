@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="classasteroid" kind="class"><name>asteroid</name>
+    <member refid="classasteroid_1ab68d59505459d4c87502a982cd53b12b" kind="variable"><name>smallAsteroids</name></member>
+    <member refid="classasteroid_1ad62448bfa387d2aa84cc72da8bc424b5" kind="variable"><name>explosion</name></member>
+    <member refid="classasteroid_1a327b85da9f0c9820a4b9cedecee4c7f2" kind="function"><name>DestroyAsteroid</name></member>
+  </compound>
+  <compound refid="classasteroidmovement" kind="class"><name>asteroidmovement</name>
+    <member refid="classasteroidmovement_1ad9241f5e58b38d4b0d606217bbdfe14b" kind="variable"><name>speed</name></member>
+    <member refid="classasteroidmovement_1a2c443d3ce3954bd758ee1fe1d2d6137a" kind="function"><name>Start</name></member>
+    <member refid="classasteroidmovement_1a5a8a5f4503712d66fddb57ab5bdf3126" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_asteroid_rotation" kind="class"><name>AsteroidRotation</name>
+    <member refid="class_asteroid_rotation_1a395bd8b7eaccda1d682e87af52ef9896" kind="variable"><name>rotationSpeed</name></member>
+    <member refid="class_asteroid_rotation_1a7328c627c01614a5310254efcaa26f45" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="classbullet" kind="class"><name>bullet</name>
+    <member refid="classbullet_1a7b317bcb52783333f82da0a886dfb473" kind="variable"><name>speed</name></member>
+    <member refid="classbullet_1a084550ce7e9f68a69d27d7390b4e6af0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="classcollision" kind="class"><name>collision</name>
+    <member refid="classcollision_1a1bef00ff31aa36560b73c9efc0ee031d" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="class_earth_rotation" kind="class"><name>EarthRotation</name>
+    <member refid="class_earth_rotation_1afd2f8e3c71b37cbb8a4a3efaeb4bb76c" kind="variable"><name>rotationSpeed</name></member>
+    <member refid="class_earth_rotation_1a8848f38ddc2d6feb51230270125533d2" kind="variable"><name>explosion</name></member>
+    <member refid="class_earth_rotation_1ac825ae5dea8e7c4a12f9b74512f6877e" kind="variable"><name>earthExplode</name></member>
+    <member refid="class_earth_rotation_1a526b254eb3ea380b60d0a351f2d8fee9" kind="function"><name>Start</name></member>
+    <member refid="class_earth_rotation_1a4cc9c7ef6ab05928198c616ec25120b0" kind="function"><name>Update</name></member>
+    <member refid="class_earth_rotation_1af3e6c377512351c08cc832628cc118d5" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="class_game_over" kind="class"><name>GameOver</name>
+    <member refid="class_game_over_1adbaf49980d70d9f85b081d679f8c2964" kind="variable"><name>gameOverUI</name></member>
+    <member refid="class_game_over_1a7bf9c8b5a92fee5fe0b6a2eb20cf5ebc" kind="variable"><name>isGameOver</name></member>
+    <member refid="class_game_over_1aeca680d31b0c4701541279882bb143c8" kind="function"><name>OnCollisionEnter</name></member>
+    <member refid="class_game_over_1a03d824dff5b997d7566f5e7bb5326609" kind="function"><name>gameOver</name></member>
+    <member refid="class_game_over_1a4ac2547fd46ea32a479f512bc2720a82" kind="function"><name>RestartGame</name></member>
+    <member refid="class_game_over_1aab4902830328edefbfc83063863159a6" kind="function"><name>MainMenu</name></member>
+    <member refid="class_game_over_1a252e97e89fa007889c2a9fb4a2f9b06c" kind="function"><name>QuitGame</name></member>
+  </compound>
+  <compound refid="class_main_menu" kind="class"><name>MainMenu</name>
+    <member refid="class_main_menu_1a11d7e3cd6b90cf59659e03e830e02db5" kind="function"><name>PlayGame</name></member>
+    <member refid="class_main_menu_1a485db7cf60c0b93ecc87b9273bcce78b" kind="function"><name>QuitGame</name></member>
+  </compound>
+  <compound refid="class_pause_menu" kind="class"><name>PauseMenu</name>
+    <member refid="class_pause_menu_1aa4b71b523b07a7e678c0446dbf8f9c70" kind="variable"><name>GameIsPause</name></member>
+    <member refid="class_pause_menu_1a49305f37ccebc2342ea009f5cb259fee" kind="variable"><name>pauseMenuUI</name></member>
+    <member refid="class_pause_menu_1a5325fe2fbc7a7d39408b6dab0a129c88" kind="function"><name>Start</name></member>
+    <member refid="class_pause_menu_1ad66a0552c131257182ce524f1c71ce4c" kind="function"><name>Update</name></member>
+    <member refid="class_pause_menu_1a712dac1268693262de144337e2835ea7" kind="function"><name>Pause</name></member>
+    <member refid="class_pause_menu_1a4416b25e65dfadf57cd8657eaf94f7df" kind="function"><name>Resume</name></member>
+    <member refid="class_pause_menu_1a0bdcb9381f657a4dbe7c51d20ef888ec" kind="function"><name>RestartLevel</name></member>
+    <member refid="class_pause_menu_1a833077a2752465d59d0e7e5ad756b7ab" kind="function"><name>QuitGame</name></member>
+  </compound>
+  <compound refid="classplayership" kind="class"><name>playership</name>
+    <member refid="classplayership_1ac14db9c28b442a2f7e5b37bab43fc650" kind="variable"><name>Bullet</name></member>
+    <member refid="classplayership_1a9da787a237b15372f9f5999856ba9cb1" kind="variable"><name>explosion</name></member>
+    <member refid="classplayership_1a4fd966dbae906b3fa1eddf8d4423746a" kind="variable"><name>shootBullet</name></member>
+    <member refid="classplayership_1a930d0fdddf697b79aa70d29a3c33e999" kind="function"><name>Start</name></member>
+    <member refid="classplayership_1ad7df7fbe0c99158b2bab58f7ac4cbd8e" kind="function"><name>Update</name></member>
+    <member refid="classplayership_1a465b8f5ec7577c08c5859f66c48f0858" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="classscore" kind="class"><name>score</name>
+    <member refid="classscore_1a06222ee18eab9df60a295582b34f356a" kind="variable"><name>instance</name></member>
+    <member refid="classscore_1a47bc23e3a9825ea6fbac949bfcbb9f39" kind="variable"><name>scoreText</name></member>
+    <member refid="classscore_1a8506a33e6cc8460b3ebbf33bf041a3e9" kind="variable"><name>scores</name></member>
+    <member refid="classscore_1a6f5e302c208fcaf3ae8496a70e24253b" kind="variable"><name>points</name></member>
+    <member refid="classscore_1a338bc64bc24dfe65adca2d0122299e78" kind="variable"><name>highscore</name></member>
+    <member refid="classscore_1a786a3b6a4e7c43e0654188a9c4494f52" kind="function"><name>Start</name></member>
+    <member refid="classscore_1a44142d506a88042762312bd2ec8a10de" kind="function"><name>AddPoints</name></member>
+  </compound>
+  <compound refid="class_screen_borders" kind="class"><name>ScreenBorders</name>
+    <member refid="class_screen_borders_1a549f5dd5a79141c7fd3b944c223e2d9e" kind="variable"><name>padding</name></member>
+    <member refid="class_screen_borders_1a72e9950147ec0e95db21482e26ad6eba" kind="property"><name>ScreenLimits</name></member>
+    <member refid="class_screen_borders_1ae57157fc7d0e4cf6a0b04fbd71c99566" kind="variable"><name>pad</name></member>
+    <member refid="class_screen_borders_1ab6fca812ac3372734183eb35c67205ed" kind="function"><name>OnValidate</name></member>
+    <member refid="class_screen_borders_1acc2cf4af80b8294a5e05f6e829137032" kind="function"><name>OnDrawGizmos</name></member>
+  </compound>
+  <compound refid="classscreenwrap" kind="class"><name>screenwrap</name>
+    <member refid="classscreenwrap_1a6be7154aa68fcb16038dba990b6269eb" kind="function"><name>Start</name></member>
+    <member refid="classscreenwrap_1a52a58acb915745940eeaf63345cb9485" kind="function"><name>Update</name></member>
+    <member refid="classscreenwrap_1a590535210d1e540cdc0b9e760c76d807" kind="function"><name>screenWrap</name></member>
+  </compound>
+  <compound refid="class_ship_asteroid_colliision" kind="class"><name>ShipAsteroidColliision</name>
+    <member refid="class_ship_asteroid_colliision_1a53075332c0c3ce1f8bab7068e01ee98c" kind="variable"><name>GameOver</name></member>
+    <member refid="class_ship_asteroid_colliision_1a0de195a71aa57f4cacbd50a462c53c4c" kind="variable"><name>shipExplode</name></member>
+    <member refid="class_ship_asteroid_colliision_1a445248537e0642e62d67bd61638d554e" kind="function"><name>Start</name></member>
+    <member refid="class_ship_asteroid_colliision_1a9ae5077297dbdd106214fd618a015675" kind="function"><name>OnCollisionEnter</name></member>
+  </compound>
+  <compound refid="class_win_game" kind="class"><name>WinGame</name>
+    <member refid="class_win_game_1a7ea54358c5ea2ec47d495322a925a44b" kind="variable"><name>winGameUI</name></member>
+    <member refid="class_win_game_1a0ad3f988323aee16ce016d824e419a37" kind="variable"><name>isWinGame</name></member>
+    <member refid="class_win_game_1ab0221370e182f87648e0ed7bc1c6fe3b" kind="function"><name>Start</name></member>
+    <member refid="class_win_game_1a3ebfa5b928881fe57542f6cb1c61bfd2" kind="function"><name>Update</name></member>
+    <member refid="class_win_game_1a947b8082bb90d2c4fdcfd76482124263" kind="function"><name>winGame</name></member>
+    <member refid="class_win_game_1a7b860a40b52cd13ee7ae3b49c9b3f170" kind="function"><name>NextLevel</name></member>
+    <member refid="class_win_game_1af073e08200a6fd525cdc131d2b574d46" kind="function"><name>RestartWinGame</name></member>
+    <member refid="class_win_game_1a11c9bba6687e05a8979db5ea7c4c74f2" kind="function"><name>RestartMainMenu</name></member>
+    <member refid="class_win_game_1acba08d856faf68e62f89de36567001a9" kind="function"><name>QuitWinGame</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="asteroid_8cs" kind="file"><name>asteroid.cs</name>
+  </compound>
+  <compound refid="asteroidmovement_8cs" kind="file"><name>asteroidmovement.cs</name>
+  </compound>
+  <compound refid="_asteroid_rotation_8cs" kind="file"><name>AsteroidRotation.cs</name>
+  </compound>
+  <compound refid="bullet_8cs" kind="file"><name>bullet.cs</name>
+  </compound>
+  <compound refid="collision_8cs" kind="file"><name>collision.cs</name>
+  </compound>
+  <compound refid="_earth_rotation_8cs" kind="file"><name>EarthRotation.cs</name>
+  </compound>
+  <compound refid="_game_over_8cs" kind="file"><name>GameOver.cs</name>
+  </compound>
+  <compound refid="_main_menu_8cs" kind="file"><name>MainMenu.cs</name>
+  </compound>
+  <compound refid="_pause_menu_8cs" kind="file"><name>PauseMenu.cs</name>
+  </compound>
+  <compound refid="playership_8cs" kind="file"><name>playership.cs</name>
+  </compound>
+  <compound refid="score_8cs" kind="file"><name>score.cs</name>
+  </compound>
+  <compound refid="_screen_borders_8cs" kind="file"><name>ScreenBorders.cs</name>
+  </compound>
+  <compound refid="screenwrap_8cs" kind="file"><name>screenwrap.cs</name>
+  </compound>
+  <compound refid="_ship_asteroid_colliision_8cs" kind="file"><name>ShipAsteroidColliision.cs</name>
+  </compound>
+  <compound refid="_win_game_8cs" kind="file"><name>WinGame.cs</name>
+  </compound>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
+  </compound>
+  <compound refid="dir_f13b41af88cf68434578284aaf699e39" kind="dir"><name>Assets/Scripts</name>
+  </compound>
+</doxygenindex>
