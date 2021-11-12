@@ -11,6 +11,12 @@ public class playership : MonoBehaviour
 
     public ParticleSystem explosion;
 
+    public Joystick joystick;
+    public Joystick lookJoystick;
+    public Joybutton joybutton;
+
+    public float speed = 1f;
+
     void Start()
     {
         shootBullet = GetComponent<AudioSource>();
@@ -19,7 +25,12 @@ public class playership : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("s") )
+#if UNITY_ANDROID
+
+        MoveJoystick();
+        LookJoystick();
+#else
+        if (Input.GetKey("s"))
         {
             transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
         }
@@ -37,7 +48,31 @@ public class playership : MonoBehaviour
         {
             transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
         }
+        Shoot();
+#endif
+    }
 
+    //mobile movement
+    void MoveJoystick()
+    {
+        float hoz = joystick.Horizontal;
+        float ver = joystick.Vertical;
+        Vector3 direction = new Vector3(hoz, 0, ver).normalized;
+        transform.Translate(direction * speed, Space.World);
+    }
+
+    //mobile rotation
+    void LookJoystick()
+    {
+        float hoz = lookJoystick.Horizontal;
+        float ver = lookJoystick.Vertical;
+        Vector3 direction = new Vector3(hoz, 0, ver).normalized;
+        Vector3 lookAtPosition = transform.position + direction;
+        transform.LookAt(lookAtPosition);
+    }
+
+    public void Shoot()
+    {
         //shooting
         if (Input.GetKeyDown(KeyCode.Space))
         {

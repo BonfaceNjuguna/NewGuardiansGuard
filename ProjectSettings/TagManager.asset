@@ -8,6 +8,7 @@ TagManager:
   - bullet
   - spaceship
   - motherearth
+  - Joystick
   layers:
   - Default
   - TransparentFX
