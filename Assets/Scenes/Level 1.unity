@@ -585,7 +585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI
@@ -1753,7 +1753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI
@@ -2814,7 +2814,6 @@ GameObject:
   - component: {fileID: 908869891}
   - component: {fileID: 908869894}
   - component: {fileID: 908869893}
-  - component: {fileID: 908869892}
   - component: {fileID: 908869895}
   m_Layer: 5
   m_Name: Joybutton
@@ -2842,35 +2841,6 @@ RectTransform:
   m_AnchoredPosition: {x: 850, y: 114}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &908869892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908869890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1824667934}
-          m_TargetAssemblyTypeName: playership, Assembly-CSharp
-          m_MethodName: MobileShoot
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!114 &908869893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2921,6 +2891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db3fd232334de8479b2eb10b84a37e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pressed: 0
 --- !u!1001 &941625245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4306,7 +4277,7 @@ MonoBehaviour:
   joystick: {fileID: 1213994112}
   lookJoystick: {fileID: 941625247}
   joybutton: {fileID: 908869895}
-  speed: 0.09
+  speed: 0.05
 --- !u!114 &1824667936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4720,7 +4691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI

@@ -17,6 +17,11 @@ public class playership : MonoBehaviour
 
     public float speed = 1f;
 
+#if UNITY_ANDROID || UNITY_EDITOR
+    //Added angle for movement control
+    float angle;
+#endif
+
     void Start()
     {
         shootBullet = GetComponent<AudioSource>();
@@ -29,7 +34,41 @@ public class playership : MonoBehaviour
 
         MoveJoystick();
         LookJoystick();
+        MobileShoot();
 #else
+        PCmovement();
+        Shoot();
+#endif
+    }
+
+    //mobile movement
+    void MoveJoystick()
+    {
+        float hoz = joystick.Horizontal;
+        float ver = joystick.Vertical;
+        Vector3 direction = new Vector3(hoz, 0, ver).normalized;
+        transform.Translate(direction * speed, Space.World);
+    }
+
+    //mobile rotation
+    void LookJoystick()
+    {
+        //Fixed the movement control, ship snaps to 45 degree angles.
+        float hoz = lookJoystick.Horizontal;
+        float ver = lookJoystick.Vertical;
+        if (!(hoz == 0 && ver == 0))
+        {
+            Vector3 direction = new Vector3(hoz, 0, ver).normalized;
+            angle = Mathf.Atan2(direction.z, direction.x);
+            var rotate = transform.eulerAngles;
+            rotate.y = -(angle) * Mathf.Rad2Deg + 180;
+            //Use rotation instead of LookAt because the player spaceship was rotated strangely
+            transform.eulerAngles = rotate;
+        }
+    }
+
+    public void PCmovement()
+    {
         if (Input.GetKey("s"))
         {
             transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
@@ -48,27 +87,20 @@ public class playership : MonoBehaviour
         {
             transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
         }
-        Shoot();
-#endif
     }
 
-    //mobile movement
-    void MoveJoystick()
+    public void MobileShoot()
     {
-        float hoz = joystick.Horizontal;
-        float ver = joystick.Vertical;
-        Vector3 direction = new Vector3(hoz, 0, ver).normalized;
-        transform.Translate(direction * speed, Space.World);
-    }
+        if (joybutton.Pressed == true)
+        {
+            //The Bullet instantiation happens here.
+            GameObject Bullet_Handler;
+            Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
+            Destroy(Bullet_Handler, 5.0f);
 
-    //mobile rotation
-    void LookJoystick()
-    {
-        float hoz = lookJoystick.Horizontal;
-        float ver = lookJoystick.Vertical;
-        Vector3 direction = new Vector3(hoz, 0, ver).normalized;
-        Vector3 lookAtPosition = transform.position + direction;
-        transform.LookAt(lookAtPosition);
+            //audio sound shooting
+            shootBullet.Play();
+        }
     }
 
     public void Shoot()
@@ -79,7 +111,7 @@ public class playership : MonoBehaviour
             //The Bullet instantiation happens here.
             GameObject Bullet_Handler;
             Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
-            Destroy(Bullet_Handler, 8.0f);
+            Destroy(Bullet_Handler, 5.0f);
 
             //audio sound shooting
             shootBullet.Play();
