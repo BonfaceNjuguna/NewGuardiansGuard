@@ -34,7 +34,7 @@ public class playership : MonoBehaviour
 
         MoveJoystick();
         LookJoystick();
-        MobileShoot();
+        Shoot();
 #else
         PCmovement();
         Shoot();
@@ -89,9 +89,9 @@ public class playership : MonoBehaviour
         }
     }
 
-    public void MobileShoot()
+    /*public void MobileShoot()
     {
-        if (joybutton.Pressed == true)
+        if (joybutton == true)
         {
             //The Bullet instantiation happens here.
             GameObject Bullet_Handler;
@@ -101,7 +101,7 @@ public class playership : MonoBehaviour
             //audio sound shooting
             shootBullet.Play();
         }
-    }
+    }*/
 
     public void Shoot()
     {

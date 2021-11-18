@@ -6,15 +6,15 @@ using UnityEngine.EventSystems;
 public class Joybutton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [HideInInspector]
-    public bool Pressed;
+    protected bool isPressed;
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Pressed = true;
+        isPressed = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Pressed = false;
+        isPressed = false;
     }
 }
