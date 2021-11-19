@@ -585,7 +585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI
@@ -1753,7 +1753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI
@@ -4777,7 +4777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093564585309552733, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5884560996903854393, guid: 8d2e1e8e2d3e860469e1ea91595f18e1, type: 3}
       propertyPath: gameOverUI

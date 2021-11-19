@@ -17,9 +17,15 @@ public class playership : MonoBehaviour
 
     public float speed = 1f;
 
-#if UNITY_ANDROID || UNITY_EDITOR
+#if UNITY_ANDROID || UNITY_EDITOR 
     //Added angle for movement control
     float angle;
+
+    public void MobileShoot()
+    {
+        ShootBullet();
+    }
+
 #endif
 
     void Start()
@@ -30,13 +36,28 @@ public class playership : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-#if UNITY_ANDROID
-
+#if UNITY_ANDROID || UNITY_EDITOR
         MoveJoystick();
         LookJoystick();
-        Shoot();
 #else
-        PCmovement();
+        if (Input.GetKey("s"))
+        {
+            transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
+        }
+        if (Input.GetKey("w"))
+        {
+            transform.Translate(new Vector3(-5, 0, 0) * Time.deltaTime);
+        }
+
+        if (Input.GetKey("a"))
+        {
+            transform.Rotate(new Vector3(0, 0, -90) * Time.deltaTime);
+        }
+
+        if (Input.GetKey("d"))
+        {
+            transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
+        }
         Shoot();
 #endif
     }
@@ -67,54 +88,23 @@ public class playership : MonoBehaviour
         }
     }
 
-    public void PCmovement()
+    void ShootBullet()
     {
-        if (Input.GetKey("s"))
-        {
-            transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
-        }
-        if (Input.GetKey("w"))
-        {
-            transform.Translate(new Vector3(-5, 0, 0) * Time.deltaTime);
-        }
+        //The Bullet instantiation happens here.
+        GameObject Bullet_Handler;
+        Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
+        Destroy(Bullet_Handler, 8.0f);
 
-        if (Input.GetKey("a"))
-        {
-            transform.Rotate(new Vector3(0, 0, -90) * Time.deltaTime);
-        }
-
-        if (Input.GetKey("d"))
-        {
-            transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
-        }
+        //audio sound shooting
+        shootBullet.Play();
     }
-
-    /*public void MobileShoot()
-    {
-        if (joybutton == true)
-        {
-            //The Bullet instantiation happens here.
-            GameObject Bullet_Handler;
-            Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
-            Destroy(Bullet_Handler, 5.0f);
-
-            //audio sound shooting
-            shootBullet.Play();
-        }
-    }*/
 
     public void Shoot()
     {
         //shooting
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //The Bullet instantiation happens here.
-            GameObject Bullet_Handler;
-            Bullet_Handler = Instantiate(Bullet, transform.position, transform.rotation) as GameObject;
-            Destroy(Bullet_Handler, 5.0f);
-
-            //audio sound shooting
-            shootBullet.Play();
+            ShootBullet();
         }
     }
 
