@@ -17,10 +17,10 @@ public class playership : MonoBehaviour
 
     public float speed = 1f;
 
-#if UNITY_ANDROID || UNITY_EDITOR 
     //Added angle for movement control
     float angle;
 
+#if UNITY_ANDROID || UNITY_EDITOR
     public void MobileShoot()
     {
         ShootBullet();
