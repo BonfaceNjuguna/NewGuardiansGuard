@@ -16,16 +16,19 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        _pcPauseMenu();
+    }
+
+    //pause
+    public void _pauseMenu()
+    {
+        if (GameIsPause)
         {
-            if (GameIsPause)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            Resume();
+        }
+        else
+        {
+            Pause();
         }
 
         if (GameOver.isGameOver == true)
@@ -34,6 +37,24 @@ public class PauseMenu : MonoBehaviour
             GameIsPause = false;
         }
     }
+
+    //pause pc
+    public void _pcPauseMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            _pauseMenu();
+        }
+    }
+
+    //pause mobile
+#if UNITY_ANDROID || UNITY_EDITOR
+    public void _mobilePauseMenu()
+    {
+        _pauseMenu();
+    }
+
+#endif
 
     public void Resume()
     {
