@@ -36,10 +36,10 @@ public class playership : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-#if UNITY_ANDROID || UNITY_EDITOR
+/*#if UNITY_ANDROID || UNITY_EDITOR
         MoveJoystick();
         LookJoystick();
-#else
+#else*/
         if (Input.GetKey("s"))
         {
             transform.Translate(new Vector3(5, 0, 0) * Time.deltaTime);
@@ -59,7 +59,7 @@ public class playership : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
         }
         Shoot();
-#endif
+/*#endif*/
     }
 
     //mobile movement
